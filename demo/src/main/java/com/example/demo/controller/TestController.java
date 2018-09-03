@@ -23,6 +23,9 @@ public class TestController {
                        @PathVariable("part_id") String partid){
         map.put("userid",userid);
         map.put("partid",partid);
+
+        System.out.println("我用了热部署及触发器了！！！！！");
+        System.out.println("热部署功能好强大啊！！！！！");
         return  map;
     }
 
