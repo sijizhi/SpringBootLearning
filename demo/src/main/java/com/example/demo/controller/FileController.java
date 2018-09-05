@@ -1,6 +1,10 @@
 package com.example.demo.controller;
 
 import com.example.demo.entity.JsonData;
+import com.example.demo.entity.TestSetting;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,7 +16,14 @@ import java.io.IOException;
 import java.util.UUID;
 
 @Controller
+@PropertySource({"classpath:application.properties"})//加载配置文件
 public class FileController {
+
+    @Value("${web.images-path}") //通过mapping注入值
+    String path ;// "C:/Users/Administrator/Desktop/"
+
+    @Autowired
+    private TestSetting testSetting;
 
     @RequestMapping("/index")
     public String index(){
@@ -31,7 +42,7 @@ public class FileController {
             String suffixName=fileName.substring(fileName.indexOf("."));
             System.out.println("文件后缀名是："+suffixName);
             //String path = "C:/Users/Administrator/Desktop/作业源/demo/src/main/resources/static/images/";
-            String path =  "C:/Users/Administrator/Desktop/";
+
             System.out.println("目录是："+path);
             fileName= UUID.randomUUID()+suffixName;
             System.out.println("修改后的名字："+fileName);
@@ -48,6 +59,11 @@ public class FileController {
         return new JsonData("-1", "上传失败");
     }
 
+    @RequestMapping("/getSetting")
+    @ResponseBody
+    public Object getSetting(){
+        return testSetting;
+    }
 
 
 }
