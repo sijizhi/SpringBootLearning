@@ -25,7 +25,7 @@ public class TestController {
         map.put("partid",partid);
 
         System.out.println("我用了热部署及触发器了！！！！！");
-        System.out.println("热部署功能好强大啊！！！！！");
+        System.out.println("确实强大呀！！！！！");
         return  map;
     }
 

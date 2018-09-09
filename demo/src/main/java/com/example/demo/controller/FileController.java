@@ -42,7 +42,7 @@ public class FileController {
             String suffixName=fileName.substring(fileName.indexOf("."));
             System.out.println("文件后缀名是："+suffixName);
             //String path = "C:/Users/Administrator/Desktop/作业源/demo/src/main/resources/static/images/";
-
+            path=path+"/";
             System.out.println("目录是："+path);
             fileName= UUID.randomUUID()+suffixName;
             System.out.println("修改后的名字："+fileName);
