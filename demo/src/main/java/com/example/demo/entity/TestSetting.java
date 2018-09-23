@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @PropertySource({"classpath:application.properties"})//配置文件
-@ConfigurationProperties//配置属性用的
+@ConfigurationProperties(prefix = "text")//配置属性用的
 public class TestSetting {
 
 

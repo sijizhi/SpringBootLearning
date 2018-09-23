@@ -15,9 +15,16 @@ public class TestController {
     Map map=new HashMap();
     @GetMapping("/test")
     public String TestReturn(){
+        System.out.println("TestController测试连接==========");
         return "我是植思杰，我来测试springboot";
     }
 
+    /**
+     *
+     * @param userid
+     * @param partid
+     * @return
+     */
     @GetMapping("/test/{user_id}/{part_id}")
     public Map TestMap(@PathVariable("user_id") String userid,
                        @PathVariable("part_id") String partid){
@@ -42,4 +49,16 @@ public class TestController {
 
         return  user;
     }
+
+    @GetMapping("/testFilter/test")
+    public String testFilter(){
+        return  "测试通过";
+    }
+
+    @GetMapping("/api/test")
+    public String testInterceptor(){
+        System.out.println("========拦截controller===========");
+        return  "拦截通过";
+    }
+
 }
