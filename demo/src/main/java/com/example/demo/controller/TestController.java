@@ -1,6 +1,10 @@
 package com.example.demo.controller;
 
+import com.example.demo.Service.SijieService;
+import com.example.demo.Tools.MD5Util;
 import com.example.demo.entity.UserBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -12,6 +16,10 @@ import java.util.Map;
 
 @RestController
 public class TestController {
+
+    private BCryptPasswordEncoder passwordEncoder=new BCryptPasswordEncoder();
+    @Autowired
+    private SijieService sijieService;
     Map map=new HashMap();
     @GetMapping("/test")
     public String TestReturn(){
@@ -60,5 +68,37 @@ public class TestController {
         System.out.println("========拦截controller===========");
         return  "拦截通过";
     }
+
+    /**
+     * MD5
+     */
+
+    @GetMapping("/testMD5")
+    public String testMD5(String string){
+       String string1= MD5Util.md5(string);
+       String result1="bbf2dead374654cbb32a917afd236656";
+       String result2="bbf2dead374654cbb32a917afd236656";
+        return MD5Util.md5(string);
+    }
+
+    /**
+     * MD5
+     */
+
+    @GetMapping("/passwordEncoder")
+    public String passwordEncoder(String string){
+        String test1=passwordEncoder.encode(string);
+        String test2="$2a$10$4so92gEv/fM70p4ynle3Ie.Le5cjWhBW6E3oeA4IE9lij7JCA0mra";
+        String result="";
+        if (passwordEncoder.matches(string, test2)){
+            result="true";
+        }else {
+            result="false";
+        }
+
+        return passwordEncoder.encode(string);
+    }
+
+
 
 }
