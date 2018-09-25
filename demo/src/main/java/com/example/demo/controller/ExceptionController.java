@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.Tools.MyException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,5 +15,21 @@ public class ExceptionController {
     }
 
 
+    @RequestMapping("/testError")
+    public Object myexc(){
+        throw new MyException("499","my ext异常");
+    }
 
+
+    @RequestMapping("/testCatch")
+    public Object myCatch(){
+        try {
+            int t=9/0;
+        }catch (IllegalStateException e){
+            e.printStackTrace();
+        }catch (MyException e){
+
+        }
+        return "Aaaa";
+    }
 }
