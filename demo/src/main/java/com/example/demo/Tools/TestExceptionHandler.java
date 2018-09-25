@@ -34,6 +34,7 @@ public class TestExceptionHandler {
         return map;//异常时返回给前端
     }
 
+
     //捕获全局异常(MyException)
     @ExceptionHandler(value = MyException.class)
     public Object handleMyException(MyException e, HttpServletRequest request){
@@ -52,6 +53,7 @@ public class TestExceptionHandler {
         map.put("url",request.getRequestURL() );//异常路径（接口）
         return map;//异常时返回给前端
     }
+
 
 
 }
