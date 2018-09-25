@@ -20,7 +20,7 @@ import javax.servlet.MultipartConfigElement;
 @MapperScan("com.example.demo.Dao")
 public class DemoApplication {
 
-	
+
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(DemoApplication.class);
 	}
