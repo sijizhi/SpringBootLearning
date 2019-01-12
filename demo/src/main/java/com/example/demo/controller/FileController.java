@@ -40,6 +40,7 @@ public class FileController {
     @ResponseBody
     public JsonData upload(@RequestParam("access_file") MultipartFile file,
                            @RequestParam("name")String myname){
+        System.out.println(file);
         System.out.println("姓名为："+myname);
         if(!file.isEmpty()){
             //获取原始名字
