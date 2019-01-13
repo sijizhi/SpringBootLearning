@@ -5,8 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import javax.jms.Destination;
 import javax.jms.Queue;
+import javax.jms.Topic;
 
 /**
  * @Author: SiJie Zhi
@@ -16,6 +18,7 @@ import javax.jms.Queue;
 public class ProductServiceImpl implements ProductService {
     @Autowired
     private Queue queue;
+
     @Autowired
     private JmsMessagingTemplate jmsMessagingTemplate;//用来发送消息到broker的对象
     /**
@@ -33,6 +36,14 @@ public class ProductServiceImpl implements ProductService {
      */
     @Override
     public void sendMessage(String msg) throws  Exception{
-        jmsMessagingTemplate.convertAndSend(msg );
+        jmsMessagingTemplate.convertAndSend(this.queue,msg );
+    }
+
+    //=======发布订阅相关代码=========
+    @Resource
+    private Topic topic;
+    @Override
+    public void addtopic(String msg) throws Exception {
+        jmsMessagingTemplate.convertAndSend(this.topic,msg );
     }
 }

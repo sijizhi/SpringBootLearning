@@ -32,5 +32,12 @@ public class ActiveMQController {
         ProductService .sendMessage(msg );
         return  JsonData2.buildSuccess();
     }
+
+    @RequestMapping("topic")
+    public JsonData2  topic(String msg)throws  Exception{
+        ProductService.addtopic(msg);
+        return  JsonData2.buildSuccess();
+    }
+
 }
 

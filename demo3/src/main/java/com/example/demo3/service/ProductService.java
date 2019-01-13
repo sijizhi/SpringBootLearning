@@ -22,4 +22,9 @@ public interface ProductService {
      */
     public void sendMessage(final String msg) throws  Exception;
 
+    /**
+     * 默认消息队列，发送消息
+     * @param msg
+     */
+    public void addtopic(final String msg) throws  Exception;
 }
