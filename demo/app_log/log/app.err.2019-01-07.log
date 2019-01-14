@@ -1,8 +1,0 @@
-2019-01-07 11:18:44.350 ERROR[http-nio-8090-exec-1]com.example.demo.controller.TestController.TestReturn:33 -this is error level
-2019-01-07 12:26:19.660 ERROR[http-nio-8090-exec-1]com.example.demo.controller.TestController.TestReturn:38 -this is error level
-2019-01-07 12:26:20.870 ERROR[http-nio-8090-exec-2]com.example.demo.controller.TestController.TestReturn:38 -this is error level
-2019-01-07 12:26:21.351 ERROR[http-nio-8090-exec-3]com.example.demo.controller.TestController.TestReturn:38 -this is error level
-2019-01-07 12:26:21.773 ERROR[http-nio-8090-exec-4]com.example.demo.controller.TestController.TestReturn:38 -this is error level
-2019-01-07 12:26:22.159 ERROR[http-nio-8090-exec-5]com.example.demo.controller.TestController.TestReturn:38 -this is error level
-2019-01-07 12:26:22.563 ERROR[http-nio-8090-exec-6]com.example.demo.controller.TestController.TestReturn:38 -this is error level
-2019-01-07 12:26:22.966 ERROR[http-nio-8090-exec-7]com.example.demo.controller.TestController.TestReturn:38 -this is error level
