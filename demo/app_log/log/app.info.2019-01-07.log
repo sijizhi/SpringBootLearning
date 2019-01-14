@@ -1,0 +1,107 @@
+2019-01-07 11:08:49.912 INFO [restartedMain]com.example.demo.DemoApplication.logStarting:50 -Starting DemoApplication on EDZ-20180717ILB with PID 8772 (C:\Users\Administrator\Desktop\Learning\SpringBootLearning\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\Learning\SpringBootLearning\demo)
+2019-01-07 11:08:49.917 INFO [restartedMain]com.example.demo.DemoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-01-07 11:08:50.143 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-07 11:08:50.143 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-07 11:08:51.311 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-07 11:08:51.314 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-07 11:08:51.368 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-01-07 11:08:52.055 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df96f059] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-07 11:08:52.858 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8090 (http)
+2019-01-07 11:08:52.871 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8090"]
+2019-01-07 11:08:52.877 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-01-07 11:08:52.878 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-07 11:08:52.886 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\InstallToUse\JAVA\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\InstallToUse\JAVA\oracle\dbhome\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\InstallToUse\JAVA\jdk\bin;D:\InstallToUse\JAVA\jdk\jre\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\InstallToUse\MAVEN\apache-maven-3.5.4\bin;D:\InstallToUse\Node\;D:\InstallToUse\SVN\bin;D:\InstallToUse\GIT\Git\cmd;C:\Users\Administrator\AppData\Roaming\npm;D:\InstallToUse\SSH;D:\InstallToUse\VSCode\Microsoft VS Code\bin;D:\InstallToUse\JAVA;D:\InstallToUse\Docker Toolbox;.]
+2019-01-07 11:08:52.966 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-01-07 11:08:52.967 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 2628 ms
+2019-01-07 11:08:53.034 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet dispatcherServlet mapped to [/]
+2019-01-07 11:08:53.035 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet TestServlet mapped to [/testServlet]
+2019-01-07 11:08:53.039 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-07 11:08:53.039 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-07 11:08:53.039 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'formContentFilter' to: [/*]
+2019-01-07 11:08:53.040 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-07 11:08:53.040 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:261 -Mapping filter: 'DemoFilter' to urls: [/testFilter/*]
+2019-01-07 11:08:53.947 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-07 11:08:54.085 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-07 11:08:54.382 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-01-07 11:08:54.428 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8090"]
+2019-01-07 11:08:54.438 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 -Using a shared selector for servlet write/read
+2019-01-07 11:08:54.455 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-07 11:08:54.459 INFO [restartedMain]com.example.demo.DemoApplication.logStarted:59 -Started DemoApplication in 5.199 seconds (JVM running for 7.441)
+2019-01-07 11:18:44.267 INFO [http-nio-8090-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-07 11:18:44.267 INFO [http-nio-8090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 -Initializing Servlet 'dispatcherServlet'
+2019-01-07 11:18:44.310 INFO [http-nio-8090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 -Completed initialization in 42 ms
+2019-01-07 11:18:44.347 INFO [http-nio-8090-exec-1]com.example.demo.controller.TestController.TestReturn:31 -this is info level 
+2019-01-07 11:18:44.348 WARN [http-nio-8090-exec-1]com.example.demo.controller.TestController.TestReturn:32 -this is warn level 
+2019-01-07 11:22:53.506 INFO [Thread-15]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-07 11:22:54.337 INFO [restartedMain]com.example.demo.DemoApplication.logStarting:50 -Starting DemoApplication on EDZ-20180717ILB with PID 8772 (C:\Users\Administrator\Desktop\Learning\SpringBootLearning\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\Learning\SpringBootLearning\demo)
+2019-01-07 11:22:54.337 INFO [restartedMain]com.example.demo.DemoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-01-07 11:22:54.677 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-07 11:22:54.677 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-07 11:22:54.687 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-07 11:22:54.767 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df96f059] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-07 11:22:54.864 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8090 (http)
+2019-01-07 11:22:54.864 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8090"]
+2019-01-07 11:22:54.864 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-01-07 11:22:54.864 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-07 11:22:54.884 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-01-07 11:22:54.884 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 537 ms
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet dispatcherServlet mapped to [/]
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet TestServlet mapped to [/testServlet]
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'formContentFilter' to: [/*]
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-07 11:22:54.914 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:261 -Mapping filter: 'DemoFilter' to urls: [/testFilter/*]
+2019-01-07 11:22:55.134 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-07 11:22:55.194 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-07 11:22:55.304 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-01-07 11:22:55.334 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8090"]
+2019-01-07 11:22:55.334 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 -Using a shared selector for servlet write/read
+2019-01-07 11:22:55.344 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-07 11:22:55.344 INFO [restartedMain]com.example.demo.DemoApplication.logStarted:59 -Started DemoApplication in 1.044 seconds (JVM running for 848.319)
+2019-01-07 11:22:55.354 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 -Condition evaluation unchanged
+2019-01-07 11:23:18.982 INFO [Thread-23]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-07 11:23:20.781 INFO [restartedMain]com.example.demo.DemoApplication.logStarting:50 -Starting DemoApplication on EDZ-20180717ILB with PID 8772 (C:\Users\Administrator\Desktop\Learning\SpringBootLearning\demo\target\classes started by Administrator in C:\Users\Administrator\Desktop\Learning\SpringBootLearning\demo)
+2019-01-07 11:23:20.781 INFO [restartedMain]com.example.demo.DemoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-01-07 11:23:21.185 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-07 11:23:21.185 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-07 11:23:21.195 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-07 11:23:21.307 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df96f059] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-07 11:23:21.417 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8090 (http)
+2019-01-07 11:23:21.417 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8090"]
+2019-01-07 11:23:21.427 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-01-07 11:23:21.427 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-01-07 11:23:21.491 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-01-07 11:23:21.492 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 711 ms
+2019-01-07 11:23:21.526 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet dispatcherServlet mapped to [/]
+2019-01-07 11:23:21.527 INFO [restartedMain]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:186 -Servlet TestServlet mapped to [/testServlet]
+2019-01-07 11:23:21.528 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-07 11:23:21.528 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-07 11:23:21.529 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'formContentFilter' to: [/*]
+2019-01-07 11:23:21.529 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:248 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-07 11:23:21.529 INFO [restartedMain]o.s.boot.web.servlet.FilterRegistrationBean.configure:261 -Mapping filter: 'DemoFilter' to urls: [/testFilter/*]
+2019-01-07 11:23:21.811 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-07 11:23:21.895 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-07 11:23:22.065 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-01-07 11:23:22.124 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8090"]
+2019-01-07 11:23:22.127 INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:173 -Using a shared selector for servlet write/read
+2019-01-07 11:23:22.133 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-07 11:23:22.134 INFO [restartedMain]com.example.demo.DemoApplication.logStarted:59 -Started DemoApplication in 1.389 seconds (JVM running for 875.102)
+2019-01-07 11:23:22.138 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 -Condition evaluation unchanged
+2019-01-07 12:26:19.651 INFO [http-nio-8090-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-07 12:26:19.652 INFO [http-nio-8090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:521 -Initializing Servlet 'dispatcherServlet'
+2019-01-07 12:26:19.657 INFO [http-nio-8090-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:543 -Completed initialization in 5 ms
+2019-01-07 12:26:19.659 INFO [http-nio-8090-exec-1]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:19.660 WARN [http-nio-8090-exec-1]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 
+2019-01-07 12:26:20.870 INFO [http-nio-8090-exec-2]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:20.870 WARN [http-nio-8090-exec-2]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 
+2019-01-07 12:26:21.351 INFO [http-nio-8090-exec-3]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:21.351 WARN [http-nio-8090-exec-3]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 
+2019-01-07 12:26:21.772 INFO [http-nio-8090-exec-4]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:21.773 WARN [http-nio-8090-exec-4]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 
+2019-01-07 12:26:22.159 INFO [http-nio-8090-exec-5]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:22.159 WARN [http-nio-8090-exec-5]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 
+2019-01-07 12:26:22.562 INFO [http-nio-8090-exec-6]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:22.562 WARN [http-nio-8090-exec-6]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 
+2019-01-07 12:26:22.965 INFO [http-nio-8090-exec-7]com.example.demo.controller.TestController.TestReturn:36 -this is info level 
+2019-01-07 12:26:22.966 WARN [http-nio-8090-exec-7]com.example.demo.controller.TestController.TestReturn:37 -this is warn level 

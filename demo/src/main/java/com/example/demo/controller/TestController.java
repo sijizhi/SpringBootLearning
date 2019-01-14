@@ -3,6 +3,8 @@ package com.example.demo.controller;
 import com.example.demo.Service.SijieService;
 import com.example.demo.Tools.MD5Util;
 import com.example.demo.entity.UserBean;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,15 +19,26 @@ import java.util.Map;
 @RestController
 public class TestController {
 
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
     private BCryptPasswordEncoder passwordEncoder=new BCryptPasswordEncoder();
     @Autowired
     private SijieService sijieService;
     Map map=new HashMap();
+
+    /**
+     * 日志打印
+     * @return
+     */
     @GetMapping("/test")
     public String TestReturn(){
         System.out.println("TestController测试连接==========");
+        logger.debug("this is debug level");
+        logger.info("this is info level ");
+        logger.warn("this is warn level ");
+        logger.error("this is error level");
         return "我是植思杰，我来测试springboot";
     }
+
 
     /**
      *
@@ -38,7 +51,6 @@ public class TestController {
                        @PathVariable("part_id") String partid){
         map.put("userid",userid);
         map.put("partid",partid);
-
         System.out.println("我用了热部署及触发器了！！！！！");
         System.out.println("确实强大呀！！！！！");
         return  map;
@@ -93,11 +105,11 @@ public class TestController {
         if (passwordEncoder.matches(string, test2)){
             result="true";
         }else {
-            result="false";
-        }
+        result="false";
+    }
 
         return passwordEncoder.encode(string);
-    }
+}
 
 
 
