@@ -1,0 +1,639 @@
+{
+	"info": {
+		"_postman_id": "74539867-0230-4677-a7f3-6fbde1756341",
+		"name": "springbootLearning version1.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "测试",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_heard",
+						"value": "dasfsaf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://47.100.115.31:9080/SiXueping-0.0.1-SNAPSHOT/api/sixueping/getSiXueping_byid?siXueId=1",
+					"protocol": "http",
+					"host": [
+						"47",
+						"100",
+						"115",
+						"31"
+					],
+					"port": "9080",
+					"path": [
+						"SiXueping-0.0.1-SNAPSHOT",
+						"api",
+						"sixueping",
+						"getSiXueping_byid"
+					],
+					"query": [
+						{
+							"key": "siXueId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_heard",
+						"value": "dasfsaf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/update_sijie?stid=18&sname=更新用户",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"update_sijie"
+					],
+					"query": [
+						{
+							"key": "stid",
+							"value": "18"
+						},
+						{
+							"key": "sname",
+							"value": "更新用户"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "加密",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_heard",
+						"value": "dasfsaf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/testMD5?string=z070831a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"testMD5"
+					],
+					"query": [
+						{
+							"key": "string",
+							"value": "z070831a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "所有用户",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_heard",
+						"value": "dasfsaf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/all_sijie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"all_sijie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "删除用户",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_heard",
+						"value": "dasfsaf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/del_sijie?stid=31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"del_sijie"
+					],
+					"query": [
+						{
+							"key": "stid",
+							"value": "31"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "添加用户",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_heard",
+						"value": "dasfsaf"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/add_sijie?sname=思杰&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"add_sijie"
+					],
+					"query": [
+						{
+							"key": "sname",
+							"value": "思杰"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "测试连接",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8081/RushHourFree/getTest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"RushHourFree",
+						"getTest"
+					]
+				},
+				"description": "车位登录接口"
+			},
+			"response": []
+		},
+		{
+			"name": "登录状态码获取用户",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/RushHourFree/loginTypeUser?param=1014e032928-dfaa-456f-b189-c722e7a7116c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"RushHourFree",
+						"loginTypeUser"
+					],
+					"query": [
+						{
+							"key": "param",
+							"value": "1014e032928-dfaa-456f-b189-c722e7a7116c"
+						}
+					]
+				},
+				"description": "车位登录接口"
+			},
+			"response": []
+		},
+		{
+			"name": "免责同意",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/RushHourFree/getAgreement?param=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"RushHourFree",
+						"getAgreement"
+					],
+					"query": [
+						{
+							"key": "param",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "本地登录接口",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8081/RushHourFree/doLogin?conFess=22801&ownPassword=245740",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"RushHourFree",
+						"doLogin"
+					],
+					"query": [
+						{
+							"key": "conFess",
+							"value": "22801"
+						},
+						{
+							"key": "ownPassword",
+							"value": "245740"
+						}
+					]
+				},
+				"description": "车位登录接口"
+			},
+			"response": []
+		},
+		{
+			"name": "服务测试Test",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.tfidoc.com:8292/RushHourFreez/getTest",
+					"protocol": "http",
+					"host": [
+						"www",
+						"tfidoc",
+						"com"
+					],
+					"port": "8292",
+					"path": [
+						"RushHourFreez",
+						"getTest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "全局异常测试1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/testException",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"testException"
+					]
+				},
+				"description": "车位登录接口"
+			},
+			"response": []
+		},
+		{
+			"name": "全局异常测试2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/testError",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"testError"
+					]
+				},
+				"description": "车位登录接口"
+			},
+			"response": []
+		},
+		{
+			"name": "本地测试获取琼琼师兄接口",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8081/RushHourFree/getOwn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"RushHourFree",
+						"getOwn"
+					]
+				},
+				"description": "车位登录接口"
+			},
+			"response": []
+		},
+		{
+			"name": "添加redis",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/redis/addRedis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"redis",
+						"addRedis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "redis获取key",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/redis/getRedis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"redis",
+						"getRedis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "redis 获取对象",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/redis/getuser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"redis",
+						"getuser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "获取redis的有效时间",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/redis/getTimeout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"redis",
+						"getTimeout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "删除redis key",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/redis/deletekey",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"redis",
+						"deletekey"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "65d12b15-b308-4aba-9c19-2303297de048",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "61e4378f-7c21-4e37-b6f0-604c83142658",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
