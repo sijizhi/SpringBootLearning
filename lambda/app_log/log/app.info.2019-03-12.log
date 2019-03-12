@@ -1,0 +1,53 @@
+2019-03-12 22:36:44.269 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStarting:50 -Starting DemoApplication on KQQAN1SV2VRJCEY with PID 11940 (C:\Users\Administrator\Desktop\Learning\SpringBootLearning\lambda\target\classes started by Administrator in C:\Users\Administrator\Desktop\Learning\SpringBootLearning\lambda)
+2019-03-12 22:36:44.273 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-03-12 22:36:44.320 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-12 22:36:44.320 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-12 22:36:45.444 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 7000 (http)
+2019-03-12 22:36:45.455 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-7000"]
+2019-03-12 22:36:45.464 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-03-12 22:36:45.465 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-12 22:36:45.471 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\InstallToUse\eclipse\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;D:\mysql\bin;D:\InstallToUse\eclipse\JDK\bin;D:\InstallToUse\eclipse\JDK\jre\bin;D:\InstallToUse\Git\Git\cmd;D:\InstallToUse\nodejs\;D:\InstallToUse\Maven\apache-maven-3.5.4\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\InstallToUse\SSH;D:\InstallToUse\VSCode\Microsoft VS Code\bin;.]
+2019-03-12 22:36:45.615 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-03-12 22:36:45.615 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1295 ms
+2019-03-12 22:36:45.826 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-12 22:36:45.997 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-03-12 22:36:46.035 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-7000"]
+2019-03-12 22:36:46.070 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 7000 (http) with context path ''
+2019-03-12 22:36:46.073 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStarted:59 -Started DemoApplication in 2.308 seconds (JVM running for 3.274)
+2019-03-12 22:40:51.321 INFO [http-nio-7000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-12 22:40:51.321 INFO [http-nio-7000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-03-12 22:40:51.325 INFO [http-nio-7000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 4 ms
+2019-03-12 23:13:53.608 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-12 23:13:53.854 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStarting:50 -Starting DemoApplication on KQQAN1SV2VRJCEY with PID 11940 (C:\Users\Administrator\Desktop\Learning\SpringBootLearning\lambda\target\classes started by Administrator in C:\Users\Administrator\Desktop\Learning\SpringBootLearning\lambda)
+2019-03-12 23:13:53.854 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-03-12 23:13:54.120 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 7000 (http)
+2019-03-12 23:13:54.120 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-7000"]
+2019-03-12 23:13:54.121 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-03-12 23:13:54.121 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-12 23:13:54.142 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-03-12 23:13:54.143 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 287 ms
+2019-03-12 23:13:54.188 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-12 23:13:54.252 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-03-12 23:13:54.266 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-7000"]
+2019-03-12 23:13:54.277 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 7000 (http) with context path ''
+2019-03-12 23:13:54.278 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStarted:59 -Started DemoApplication in 0.466 seconds (JVM running for 2231.45)
+2019-03-12 23:13:54.280 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:70 -Condition evaluation unchanged
+2019-03-12 23:15:25.128 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStarting:50 -Starting DemoApplication on KQQAN1SV2VRJCEY with PID 11448 (C:\Users\Administrator\Desktop\Learning\SpringBootLearning\lambda\target\classes started by Administrator in C:\Users\Administrator\Desktop\Learning\SpringBootLearning\lambda)
+2019-03-12 23:15:25.132 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-03-12 23:15:25.171 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-12 23:15:25.171 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-12 23:15:26.137 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 7000 (http)
+2019-03-12 23:15:26.148 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-7000"]
+2019-03-12 23:15:26.154 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-03-12 23:15:26.154 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-12 23:15:26.168 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\InstallToUse\eclipse\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;D:\mysql\bin;D:\InstallToUse\eclipse\JDK\bin;D:\InstallToUse\eclipse\JDK\jre\bin;D:\InstallToUse\Git\Git\cmd;D:\InstallToUse\nodejs\;D:\InstallToUse\Maven\apache-maven-3.5.4\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\InstallToUse\SSH;D:\InstallToUse\VSCode\Microsoft VS Code\bin;.]
+2019-03-12 23:15:26.246 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-03-12 23:15:26.246 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1075 ms
+2019-03-12 23:15:26.388 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-12 23:15:26.505 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-03-12 23:15:26.522 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-7000"]
+2019-03-12 23:15:26.544 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 7000 (http) with context path ''
+2019-03-12 23:15:26.547 INFO [restartedMain]com.zhisijie.learning.lambda.DemoApplication.logStarted:59 -Started DemoApplication in 1.902 seconds (JVM running for 2.551)
+2019-03-12 23:15:33.688 INFO [http-nio-7000-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-12 23:15:33.688 INFO [http-nio-7000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-03-12 23:15:33.692 INFO [http-nio-7000-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 4 ms

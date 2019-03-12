@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf页面</title>
+</head>
+<body>
+    thymeleaf页面
+    <h1 th:text="${setting.name}">没有th</h1>
+    <p th:text="${setting.password}">asadf </p>
+
+    <tr th:each="li:${adv.list}">
+        <td th:text="${li}">没有</td>
+    </tr>
+
+</body>
+</html>
